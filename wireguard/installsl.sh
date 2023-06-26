@@ -43,7 +43,6 @@ ns_domain_cloudflare() {
 	)
 	echo $NS_DOMAIN >/etc/xray/dns
  echo $NS_DOMAIN >/etc/slowdns/nsdomain
- echo $NS_DOMAIM >/root/nsdomain
 }
 
 setup_dnstt() {
