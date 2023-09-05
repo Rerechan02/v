@@ -14,7 +14,7 @@ wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com
 
 #restart service
 systemctl daemon-reload
-#Enable & Start ws-ovpn service
-#systemctl enable ws-ovpn.service
-#systemctl start ws-ovpn.service
-#systemctl restart ws-ovpn.service
+#Enable & Start ws-stunnel service
+systemctl enable ws-stunnel.service
+systemctl start ws-stunnel.service
+systemctl restart ws-stunnel.service
