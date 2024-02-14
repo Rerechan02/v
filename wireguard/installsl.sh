@@ -3,7 +3,7 @@ ns_domain_cloudflare() {
 	DOMAIN=hendrabkn.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}.funy.biz.id
+	SUB_DOMAIN=${SUB}.funny-script.cloud
 	NS_DOMAIN=ns.${SUB_DOMAIN}
 	CF_ID=widyabakti02@gmail.com
         CF_KEY=c97cc106a957747e35470bdf56e2dd6cbace5
